@@ -34,7 +34,7 @@ cachetools==5.3.2
     # via
     #   google-auth
     #   tox
-certifi==2023.11.17
+certifi==2024.7.4
     # via
     #   -r requirements.txt
     #   requests
@@ -354,7 +354,7 @@ uritemplate==4.1.1
     # via
     #   -r requirements.txt
     #   drf-yasg
-urllib3==2.1.0
+urllib3==2.2.2
     # via
     #   -r requirements.txt
     #   requests
@@ -367,7 +367,7 @@ wcwidth==0.2.12
     # via blessed
 yarl==1.9.4
     # via aiohttp
-zipp==3.17.0
+zipp==3.19.1
     # via
     #   -r requirements.txt
     #   importlib-resources

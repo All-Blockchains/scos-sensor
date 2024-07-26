@@ -12,8 +12,10 @@ attrs==23.1.0
     # via
     #   jsonschema
     #   referencing
-certifi==2023.11.17
-    # via requests
+certifi==2024.7.4
+    # via
+    #   -r requirements.in
+    #   requests
 cffi==1.16.0
     # via cryptography
 charset-normalizer==3.3.2
@@ -169,9 +171,11 @@ typing-extensions==4.8.0
     # via asgiref
 uritemplate==4.1.1
     # via drf-yasg
-urllib3==2.1.0
+urllib3==2.2.2
     # via
     #   -r requirements.in
     #   requests
-zipp==3.17.0
-    # via importlib-resources
+zipp==3.19.1
+    # via
+    #   -r requirements.in
+    #   importlib-resources
